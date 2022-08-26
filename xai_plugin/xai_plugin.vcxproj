@@ -71,10 +71,10 @@
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="hvcall.cpp" />
     <ClCompile Include="log.cpp" />
-    <ClCompile Include="rebug.cpp" />
     <ClCompile Include="mm.cpp" />
     <ClCompile Include="payload.cpp" />
     <ClCompile Include="prx.cpp" />
+    <ClCompile Include="rebug.cpp" />
     <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +87,7 @@
     <ClInclude Include="explore_plugin.h" />
     <ClInclude Include="functions.h" />
     <ClInclude Include="game_ext_plugin.h" />
+    <ClInclude Include="rebug.h" />
     <ClInclude Include="gccpch.h" />
     <ClInclude Include="hvcall.h" />
     <ClInclude Include="log.h" />
