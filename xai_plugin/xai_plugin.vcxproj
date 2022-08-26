@@ -71,6 +71,7 @@
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="hvcall.cpp" />
     <ClCompile Include="log.cpp" />
+    <ClCompile Include="rebug.cpp" />
     <ClCompile Include="mm.cpp" />
     <ClCompile Include="payload.cpp" />
     <ClCompile Include="prx.cpp" />
@@ -92,6 +93,7 @@
     <ClInclude Include="mm.h" />
     <ClInclude Include="payload.h" />
     <ClInclude Include="ps3_savedata_plugin.h" />
+    <ClInclude Include="rebug.h" />
     <ClInclude Include="recording_settings.h" />
     <ClInclude Include="util.h" />
     <ClInclude Include="x3.h" />
