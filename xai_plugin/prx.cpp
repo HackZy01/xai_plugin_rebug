@@ -10,6 +10,7 @@
 #include "cobra.h"
 #include "gccpch.h"
 #include "functions.h"
+#include "rebug.h"
 
 SYS_MODULE_INFO(xai_plugin, 0, 1, 1);
 SYS_MODULE_START(_xai_plugin_prx_entry);
@@ -194,6 +195,23 @@ static void plugin_thread(uint64_t arg)
 	{
 		if(toggle_cobra() == CELL_OK)
 			xmb_reboot(SYS_HARD_REBOOT);
+	}
+	else if(strcmp(action,"rebug_mode") == 0)
+	{
+		if(rebug_mode() == CELL_OK)
+			xmb_reboot(SYS_SOFT_REBOOT);
+	}
+	else if(strcmp(action,"debugsettings_mode") == 0)
+	{
+		debugsettings_mode();
+	}
+	else if(strcmp(action,"download_toolbox") == 0)
+	{
+		download_toolbox();
+	}
+	else if(strcmp(action,"install_toolbox") == 0)
+	{
+		install_toolbox();
 	}
 
 	// Fan Modes
