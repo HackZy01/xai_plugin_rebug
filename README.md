@@ -1,9 +1,10 @@
 # xai_plugin
-XAI Plugin - Original Source by mysis [https://www.psx-place.com/threads/custom-xai_plugin-source.12455/]
+XAI Plugin - Original Source by mysis
+[https://www.psx-place.com/threads/custom-xai_plugin-source.12455/]
 
 Remember that videorec.sprx and xai_plugin.sprx must be signed after compiled
 
-This version of xai_plugin was modified to be used on **CFW 4.88 Evilnat** and **CFW 4.88.2 Evilnat**
+This version of xai_plugin was modified to be used on **CFW 4.84 Rebug** and **CFW 4.84.2 Rebug**
 
 
 ### Files that need to be modified (XMB/XAI strings)
@@ -28,6 +29,13 @@ For example:
 
 ### Options added in xai_plugin
 
+
+★ Rebug specific:
+```
+• Toggle Rebug Mode: Enables or disables Rebug Mode
+• Toggle ★Debug Settings: Enables or disables Debug Settings
+```
+☆ All:
 ```
 • Turn Off: Turns off the PS3
 • Hard Reboot: Reboots the PS3 completely
